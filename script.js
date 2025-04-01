@@ -25,7 +25,7 @@ let contentArray = [`
   </ul>
 </div>
 `,`
-<h1>Founder & Lead Developer <a href="#Project" style="color: #00f5d4;">@ Argus.io</a></h1>
+<h1>Founder & Lead Developer <a href="#fourth-page" style="color: #00f5d4;">@ Argus.io</a></h1>
 <p>January 2024 – Present</p>
 <div>
   <ul>
