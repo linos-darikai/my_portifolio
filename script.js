@@ -3,7 +3,7 @@ let prevScroll = window.scrollY;
 let buttons = document.querySelectorAll('.tab');
 let content = document.querySelector(".content");
 let contentArray = [`
-<h1>Teaching Assistant (Internship) <span style="color: #00f5d4;">@ EmziniWeCode</span></h1>
+<h1>Teaching Assistant (Internship) <a  target="_blank" rel="noopener noreferrer" href="https://emziniwecode.com/" style="color: #00f5d4;">@ EmziniWeCode</a></h1>
 <p>January 2024 – Present</p>
 <div>
   <ul>
@@ -14,7 +14,7 @@ let contentArray = [`
   </ul>
 </div>
 `,`
-<h1>Content Curator (Volunteer) <span style="color: #00f5d4;">@ EduTecX</span></h1>
+<h1>Content Curator (Volunteer) <a  target="_blank" rel="noopener noreferrer" href="https://edutecx.com/" style="color: #00f5d4;">@ EduTecX</a></h1>
 <p>January – December 2024</p>
 <div>
   <ul>
@@ -25,7 +25,7 @@ let contentArray = [`
   </ul>
 </div>
 `,`
-<h1>Founder & Lead Developer <span style="color: #00f5d4;">@ Argus.io</span></h1>
+<h1>Founder & Lead Developer <a href="#Project" style="color: #00f5d4;">@ Argus.io</a></h1>
 <p>January 2024 – Present</p>
 <div>
   <ul>
@@ -35,7 +35,7 @@ let contentArray = [`
     <li class="r-points">Led customer discovery interviews at Ashesi University’s Entrepreneurship Centre to validate business assumptions and improve product fit.</li>
   </ul>
 </div>
-`,`<h1>Peer Tutor (Computer Programming) <span style="color: #00f5d4;">@ Ashesi University</span></h1>
+`,`<h1>Peer Tutor (Computer Programming) <a  target="_blank" rel="noopener noreferrer" href="https://ashesi.edu.gh/" style="color: #00f5d4;">@ Ashesi University</a></h1>
 <p>January – December 2024</p>
 <div>
   <ul>
