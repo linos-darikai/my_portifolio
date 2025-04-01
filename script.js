@@ -15,7 +15,7 @@ let contentArray = [`
 </div>
 `,`
 <h1>Content Curator (Volunteer) <span style="color: #00f5d4;">@ EduTecX</span></h1>
-<p>January 2024 – Present</p>
+<p>January – December 2024</p>
 <div>
   <ul>
     <li class="r-points">Authored 50+ interactive learning modules, simplifying complex IT topics for over 300 students.</li>
@@ -35,8 +35,16 @@ let contentArray = [`
     <li class="r-points">Led customer discovery interviews at Ashesi University’s Entrepreneurship Centre to validate business assumptions and improve product fit.</li>
   </ul>
 </div>
-
-
+`,`<h1>Peer Tutor (Computer Programming) <span style="color: #00f5d4;">@ Ashesi University</span></h1>
+<p>January – December 2024</p>
+<div>
+  <ul>
+    <li class="r-points">Provided one-on-one and group tutoring sessions, helping students grasp fundamental programming concepts and improve coding proficiency.</li>
+    <li class="r-points">Designed custom exercises and debugging challenges, reinforcing problem-solving skills among students.</li>
+    <li class="r-points">Conducted coding workshops covering Python, Java, and algorithmic thinking to enhance student learning outcomes.</li>
+    <li class="r-points">Supported students with coursework and projects, increasing class-wide assignment completion rates by fostering a collaborative learning environment.</li>
+  </ul>
+</div>
 `];
 
 content.innerHTML = contentArray[0];
@@ -74,9 +82,9 @@ buttons.forEach(button => {
             console.log('Button clicked: ' + this.textContent);
         }
         if(this.textContent === "Ashesi University"){
-            content.innerHTML = contentArray[2];            
+            content.innerHTML = contentArray[3];            
         }
-        if(this.textContent === "EduTechx"){
+        if(this.textContent === "EduTecX"){
             content.innerHTML = contentArray[1];            
         }
         console.log('Button clicked: ' + this.textContent);
